@@ -1,0 +1,54 @@
+{
+  "name": "chatio",
+  "version": "1.0.0",
+  "description": "Chat de mensajeria instantanea.",
+  "main": "server.js",
+  "keywords": [
+    "Chat",
+    "SocketIO",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antgonto/mensajeria.git"
+  },
+  "author": {
+    "name": "Diego Alonso Rubí Salas",
+    "email": "drubis628@ulacit.ed.cr"
+  },
+  "contributors": [
+    {
+      "name": "Marco Najera Arguedas",
+      "email": "mnajeraa298@ulacit.ed.cr"
+    },
+    {
+      "name": "Jose Fabio Morales Castro",
+      "email": "jmoralesc511@ulacit.ed.cr"
+    },
+    {
+      "name": "Danilo Alfaro Cordero",
+      "email": "dalfaroc614@ulacit.ed.cr"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antgonto/mensajeria/issues"
+  },
+  "homepage": "https://github.com/antgonto/mensajeria#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
