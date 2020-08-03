@@ -13,7 +13,9 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 //Establecer el directorio raiz del proyecto.
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(
+    express.static(path.join(__dirname, 'public')
+    ));
 
 //Nombre de usuario para los mensajes del sistema
 const SysName = 'ChatIO';
@@ -51,7 +53,7 @@ io.on('connection', socket => {
             //Envia 
             const user = userLeaves(socket.id);
 
-            if(user){
+            if (user) {
                 //Envia mensaje a todos los de la sala.
                 io.to(user.room).emit('message', formatMessage(SysName, `${user.username} ha abandonado el chat`));
             }
