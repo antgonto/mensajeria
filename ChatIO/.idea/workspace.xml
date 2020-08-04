@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,20 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c7a1cd4-cd7a-4cab-ad90-9130cb429e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ChatIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/ChatIOdb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/chooseRoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/dbcontext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ChatIOdb.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,13 +57,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dbcontext.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/utils/dbcontext.js" working-dir="$PROJECT_DIR$/public/js">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -67,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.dbcontext.js" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596435123867</updated>
       <workItem from="1596435126522" duration="243000" />
+      <workItem from="1596430771071" duration="25909000" />
     </task>
     <servers />
   </component>
@@ -95,31 +127,92 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Script de la base de datos." />
     <option name="LAST_COMMIT_MESSAGE" value="Script de la base de datos." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="216" width="576" height="361" key="#Notifications" timestamp="1596430811493">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="390" y="216" width="576" height="361" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1596430811493" />
+    <state x="277" y="40" width="802" height="713" key="#Plugins" timestamp="1596497172376">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="277" y="40" width="802" height="713" key="#Plugins/0.27.1366.741@0.27.1366.741" timestamp="1596497172376" />
     <state x="140" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596435212864">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="140" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1596435212864" />
-    <state width="1341" height="173" key="GridCell.Tab.0.bottom" timestamp="1596435360360">
+    <state x="405" y="161" width="546" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596489325505">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="173" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596435360360" />
-    <state width="1341" height="173" key="GridCell.Tab.0.center" timestamp="1596435360359">
+    <state x="405" y="161" width="546" height="416" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1596489325505" />
+    <state width="1343" height="229" key="GridCell.Tab.0.bottom" timestamp="1596502055514">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="173" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1596435360359" />
-    <state width="1341" height="173" key="GridCell.Tab.0.left" timestamp="1596435360359">
+    <state width="1343" height="229" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596502055514" />
+    <state width="1343" height="229" key="GridCell.Tab.0.center" timestamp="1596502055513">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="173" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1596435360359" />
-    <state width="1341" height="173" key="GridCell.Tab.0.right" timestamp="1596435360360">
+    <state width="1343" height="229" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1596502055513" />
+    <state width="1343" height="229" key="GridCell.Tab.0.left" timestamp="1596502055513">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="173" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1596435360360" />
+    <state width="1343" height="229" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1596502055513" />
+    <state width="1343" height="229" key="GridCell.Tab.0.right" timestamp="1596502055513">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1343" height="229" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1596502055513" />
+    <state width="1366" height="440" key="GridCell.Tab.1.bottom" timestamp="1596483679863">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596483679863" />
+    <state width="1366" height="440" key="GridCell.Tab.1.center" timestamp="1596483679859">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1596483679859" />
+    <state width="1366" height="440" key="GridCell.Tab.1.left" timestamp="1596483679858">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1596483679858" />
+    <state width="1366" height="440" key="GridCell.Tab.1.right" timestamp="1596483679861">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1596483679861" />
+    <state width="1366" height="440" key="GridCell.Tab.2.bottom" timestamp="1596483679872">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.2.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596483679872" />
+    <state width="1366" height="440" key="GridCell.Tab.2.center" timestamp="1596483679868">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.2.center/0.27.1366.741@0.27.1366.741" timestamp="1596483679868" />
+    <state width="1366" height="440" key="GridCell.Tab.2.left" timestamp="1596483679865">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.2.left/0.27.1366.741@0.27.1366.741" timestamp="1596483679865" />
+    <state width="1366" height="440" key="GridCell.Tab.2.right" timestamp="1596483679870">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="440" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1596483679870" />
+    <state x="172" y="32" key="SettingsEditor" timestamp="1596482287200">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1596482287200" />
+    <state x="559" y="215" width="248" height="307" key="cloudConfig.SelfSettingsDialog" timestamp="1596482064924">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="559" y="215" width="248" height="307" key="cloudConfig.SelfSettingsDialog/0.27.1366.741@0.27.1366.741" timestamp="1596482064924" />
+    <state x="406" y="90" width="543" height="614" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596431154974">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="406" y="90" width="543" height="614" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1596431154974" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596497096932">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1596497096932" />
   </component>
 </project>

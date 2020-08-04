@@ -3,8 +3,10 @@ const path = require('path');
 const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
+const session = require('express-session');
 const formatMessage = require('./utils/messages');
 const { userJoin, getCurrentUser, userLeaves, getRoomUsers } = require('./utils/users');
+const { ValidarLogin } = require('./utils/dbcontext.js');
 
 const app = express();
 
@@ -12,10 +14,10 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
+//var sessionMiddleware = session({secret: "keyboard cat"});
+
 //Establecer el directorio raiz del proyecto.
-app.use(
-    express.static(path.join(__dirname, 'public')
-    ));
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Nombre de usuario para los mensajes del sistema
 const SysName = 'ChatIO';
@@ -25,6 +27,16 @@ io.on('connection', socket => {
 
     //Mensaje en la consola del servidor para verificar el inicio de un usuario.
     console.log('Nueva conexion con el servidor.');
+
+    socket.on('login', function(data){
+        const username = data.user, password = data.pass;
+        const result = ValidarLogin(username, password);
+        if(result) {
+            //Acceso
+        } else {
+            //Fallido
+        }
+    });
 
     //Evento al unirse un usuario.
     socket.on('joinRoom', ({ username, room }) => {
@@ -78,7 +90,6 @@ io.on('connection', socket => {
         //Envia el mensaje a todos en el chat
         io.to(user.room).emit('message', formatMessage(user.username, msg));
     });
-
 });
 
 //Declaración del puerto que usará el servidor.
