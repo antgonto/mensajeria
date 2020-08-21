@@ -1,3 +1,5 @@
+///Formato de los mensajes enviados al chat
+
 const moment = require('moment');
 
 function formatMessage(username, text){

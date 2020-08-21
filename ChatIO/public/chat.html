@@ -13,6 +13,8 @@
   <div class="chat-container">
     <header class="chat-header">
       <h1><i class="fas fa-smile"></i> ChatIO</h1>
+      <input type="file" id = "pc_file" hidden="hidden"/>
+      <button class="btn" id = "pc_file_btn">Selecionar archivo</button>
       <a href="index.html" class="btn">Leave Room</a>
     </header>
     <main class="chat-main">
@@ -35,6 +37,7 @@
     integrity="sha256-ijqLssetA1NMNjZ+w1zaUafQQLm4IW5OoM8O+4tatME=" crossorigin="anonymous"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/envioArchivos.js"></script>
 </body>
 
 </html>
